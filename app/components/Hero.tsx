@@ -11,6 +11,10 @@ const images = [
     src: "/and.jpg",
     description: "And med Rød karri",
   },
+  {
+    src: "/FingerFood.jpg",
+    description: "Fingerfood",
+  },
     {
     src: "/Kongereker.jpg",
     description: "Kongereker",
@@ -19,10 +23,7 @@ const images = [
     src: "/Kongbao.jpg",
     description: "Kong Bao med kylling",
   },
-  {
-    src: "/Kyllingred.jpg",
-    description: "Fingerfood",
-  },
+
 ];
 
 export default function Hero() {
