@@ -3,7 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --brand: #ffffff;
+  --brand: #2b2318;
+  --header: #1f180f;  
+ 
 }
 
 body {
@@ -13,12 +15,26 @@ body {
 
 .bg-brand { background-color: var(--brand); }
 
+.bg-header{background-color: var(--header);}
+
+.bg-secondary {  background-color: var(--background);
+
+}
+
 
 .text-on-brand {
-  color: #000000;
+  color: #ffffff;
+}
+
+.text-brand{
+  color: var(--brand);
 }
 
 
 .btn {
   @apply font-bold py-2 px-4 rounded;
+}
+
+.font-heading {
+  font-family: var(--font-cormorant), serif;
 }

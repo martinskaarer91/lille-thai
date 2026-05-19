@@ -1,38 +1,41 @@
 export default function Contact() {
   return (
-    <section className="py-20 bg-neutral-50">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="py-20 bg-neutral-50 bg-brand text-white">
+      <div className="max-w-5xl mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold mb-8">Ta kontakt:</h2>
 
         <div className="border-t border-gray-300 pt-8">
-          <ul className="space-y-3 text-lg text-slate-800">
-            <li>○ Navn:</li>
+          <ul className="space-y-3 text-lg text-slate-800 text-white">
+        
             <li>
-              ○ Telefon:{" "}
+            Telefon:{""}
               <a href="tel:" className="hover:underline">
-                nummer
+               63899500
               </a>
             </li>
             <li>
-              ○ E-post:{" "}
+            E-post:{" "}
               <a
-                href="mailto:Mats@logopedgrenland.no"
+                href="mailto:post@Lillethai.no"
                 className="hover:underline"
               >
-               Epost@ex.no
+               post@Lillethai.no
               </a>
             </li>
-            <li>○ Besøksadresse: </li>
+            <li>Besøksadresse: Storgata 27, 2000 Lillestrøm </li>
           </ul>
 
           <div className="mt-12 w-full flex justify-center">
-            <iframe
-              title="Kart over Grannmovegen 6"
-              src="https://www.google.com/maps?q=Grannmovegen+6,+Skien&output=embed"
-              className=" w-4/5 h-[450px] rounded-xl border border-gray-200"
-              loading="lazy"
-              allowFullScreen
-            />
+             <iframe
+            src="https://www.google.com/maps?q=Storgata%2027,%202000%20Lillestr%C3%B8m&output=embed"
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Kart til Lille Thai i Lillestrøm"
+          />
           </div>
         </div>
       </div>

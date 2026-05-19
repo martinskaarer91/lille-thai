@@ -4,8 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 
 const navItems = [
-  { label: "Forside", href: "/" },
-  { label: "Tjenester / Priser", href: "/tjenester"},
+  { label: "Hjem", href: "/" },
+  { label: "Meny", href: "/menu"},
   { label: "Om oss / Kontakt", href: "/about" },
 ];
 
@@ -13,7 +13,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-brand">
+    <header className="bg-header">
       <div className="mx-auto flex h-16 lg:h-24 max-w-6xl items-center justify-between px-4 sm:px-6">
         {/* Logo */}
         <a href="/" className="flex items-center">
