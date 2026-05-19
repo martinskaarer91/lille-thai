@@ -11,10 +11,6 @@ const images = [
     src: "/and.jpg",
     description: "And med Rød karri",
   },
-  {
-    src: "/FingerFood.jpg",
-    description: "Fingerfood",
-  },
     {
     src: "/Kongereker.jpg",
     description: "Kongereker",
