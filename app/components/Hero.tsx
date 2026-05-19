@@ -12,7 +12,7 @@ const images = [
     description: "And med Rød karri",
   },
   {
-    src: "/FingerFood.jpg",
+    src: "/Fingerfood.jpg",
     description: "Fingerfood",
   },
     {
