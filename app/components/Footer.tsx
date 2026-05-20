@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <h3 className="text-on-brand font-semibold mb-3">Kontakt</h3>
             <ul className="text-sm space-y-2 text-on-brand">
-              <li>Email:Post@lillethai.no</li>
+              <li>Email:lillethai@lillethai.no</li>
               <li>Telefon: 63899500 </li>
               <li>Adresse: Storgata 27, 2000 Lillestrøm</li>
             </ul>

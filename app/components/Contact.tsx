@@ -16,10 +16,10 @@ export default function Contact() {
             <li>
             E-post:{" "}
               <a
-                href="mailto:post@Lillethai.no"
+                href="mailto:lillethai@lillethai.no"
                 className="hover:underline"
               >
-               post@Lillethai.no
+               lillethai@lillethai.no
               </a>
             </li>
             <li>Besøksadresse: Storgata 27, 2000 Lillestrøm </li>
