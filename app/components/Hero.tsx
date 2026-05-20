@@ -38,8 +38,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative pt-20">
-      <div className="relative mx-auto h-[320px] w-full max-w-[1200px] overflow-hidden sm:h-[420px] border border-white rounded">
+    <section className="relative lg:pt-20">
+      <div className="relative mx-auto h-[320px] w-full max-w-[1200px] overflow-hidden sm:h-[420px] lg:border border-white lg:rounded">
       <img
   src={images[currentImage].src}
   alt={images[currentImage].description}

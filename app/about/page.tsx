@@ -1,11 +1,12 @@
 import Contact from "../components/Contact";
-import Contactform from "../components/Contactform";
+import Callbtn from "../components/callbtn";
 
 export default function Page() {
   return (
    <>
    
- <Contact/> 
+ <Contact/>
+ <Callbtn/> 
     </>
   );
 }
